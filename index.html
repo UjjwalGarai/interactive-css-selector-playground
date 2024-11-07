@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CSS Selector Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="header-container">
+        <h1>Explore CSS Selectors in Real Time</h1>
+        <p>This tutorial provides an interactive way to learn CSS selectors, 
+            including universal, tag name, class, ID, and attribute-based selectors. 
+            Select a CSS selector from the dropdown, and instantly see how it applies 
+            to specific elements. The code and styles applied are
+             displayed for better understanding, helping you grasp CSS selectors efficiently</p>
+    </div>
+
+    <div class="container">
+        <div class="column" id="renderedHTML">
+            <h3>Rendered HTML</h3>
+            <button id="btn">Click Me!</button>
+            <ul>
+                <li class="li-value">Micro Soft</li>
+                <li><a class="li-value" href="https://www.google.com/">Google</a></li>
+                <li class="li-value">Facebook</li>
+                <li class="li-value">Amazon</li>
+            </ul>
+            <div draggable="true">Draggable True</div>
+            <div draggable="false">Draggable False</div>
+        </div>
+
+        <div class="column" id="htmlCode">
+            <h3>HTML Code</h3>
+        </div>
+
+        <div class="column" id="selectorColumn">
+            <h3>Apply CSS</h3>
+            <select id="cssSelector">
+                <option value="none">Select a Selector</option>
+                <option value="universal">Universal Selector</option>
+                <option value="tagname">Tagname Selector</option>
+                <option value="class">Class Selector</option>
+                <option value="id">Id Selector</option>
+                <option value="attribute">[Attribute] Selector</option>
+                <option value="attribute[attr]">[Attribute=value] Selector</option>
+            </select>
+            <div class="output-css"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

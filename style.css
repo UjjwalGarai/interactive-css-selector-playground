@@ -1,0 +1,43 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.container > div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(219, 122, 122);
+    width: 33%;
+    height: 60vh;
+}
+
+
+.output-css-addClass{
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid rgb(116, 231, 203);
+}
+option{
+    text-align: center;
+};
+
+.output-css {
+    font-family: monospace;
+    white-space: pre;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
