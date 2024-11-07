@@ -14,5 +14,6 @@ This interactive tutorial is perfect for beginners learning CSS selectors. It al
 
 ## Hosting on GitHub Pages
 
-This project is hosted on GitHub Pages and can be accessed at: [URL](https://github.com/UjjwalGarai/interactive-css-selector-playground/) 
+This project is hosted on GitHub Pages and can be accessed at: [URL](https://ujjwalgarai.github.io/interactive-css-selector-playground/) 
+
 
